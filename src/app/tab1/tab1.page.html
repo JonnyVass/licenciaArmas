@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Elije un tema
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+    <ion-item *ngFor="let tema of temas"
+    (click) ="setTema(tema)"
+    [routerLink]="['/questionario',tema.id]">
+      {{tema.name}}
+    </ion-item>
+  </ion-list>
+
+</ion-content>

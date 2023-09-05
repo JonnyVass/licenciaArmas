@@ -1,0 +1,116 @@
+{
+	"data" : [
+        {
+            "question": "Pregunta uno",
+            "answers": [
+                {
+                    "label": "Respuesta 1-1",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "Respuesta 1-2",
+                    "result" : false,
+                    "order": "2"
+                },
+                {
+                    "label": "Respuesta 1-3",
+                    "result" : false,
+                    "order": "3"
+                },
+                {
+                    "label": "Respuesta 1-4",
+                    "result" : true,
+                    "order": "4"
+                }
+            ],
+            "correctAns": "4",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "Pregunta dos",
+            "answers": [
+                {
+                    "label": "Respuesta 2-1",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "Respuesta 2-2",
+                    "result" : false,
+                    "order": "2"
+                },
+                {
+                    "label": "Respuesta 2-3",
+                    "result" : false,
+                    "order": "3"
+                },
+                {
+                    "label": "Respuesta 2-4",
+                    "result" : false,
+                    "order": "4"
+                }
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "Pregunta tres",
+            "answers": [
+                {
+                    "label": "Respuesta 2-1",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "Respuesta 2-2",
+                    "result" : false,
+                    "order": "2"
+                },
+                {
+                    "label": "Respuesta 2-3",
+                    "result" : false,
+                    "order": "3"
+                },
+                {
+                    "label": "Respuesta 2-4",
+                    "result" : false,
+                    "order": "4"
+                }
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "Pregunta cuatro",
+            "answers": [
+                {
+                    "label": "Respuesta 2-1",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "Respuesta 2-2",
+                    "result" : false,
+                    "order": "2"
+                },
+                {
+                    "label": "Respuesta 2-3",
+                    "result" : false,
+                    "order": "3"
+                },
+                {
+                    "label": "Respuesta 2-4",
+                    "result" : false,
+                    "order": "4"
+                }
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        }
+    ]
+}

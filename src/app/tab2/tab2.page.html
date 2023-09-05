@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Examen Final</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      Tienes 20 min de tiempo:
+    </ion-item>
+    <!-- Listado de Preguntas -->
+    <ion-item *ngFor="let item of examen">
+      <ion-card expand="full">
+        <ion-card-header>
+          <ion-card-title>{{item.question}}</ion-card-title>
+        </ion-card-header>
+        <!-- Listado de respuestas -->
+        <ion-card-content>
+          <ion-radio-group [allowEmptySelection]="true">
+            <ion-radio labelPlacement="end"
+            justify="start"
+            *ngFor="let respuesta of item.answers"
+            value={{respuesta.order}}
+            (click)="resuelveRespuesta(item,respuesta.order)">
+              {{respuesta.label}}
+            </ion-radio>
+          </ion-radio-group>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+
+  <!-- PIE para cuando SI hay preguntas que responder -->
+    <ion-footer>
+      <ion-toolbar>
+        <ion-button expand="full"
+        *ngIf="this.activaRevision == true"
+        (click)="resuelveExamen()"
+        [routerLink]="['/examen']">
+            Resolver
+        </ion-button>
+        <ion-item class="ion-justify-content-center"
+         *ngIf="this.activaRevision == false">
+          <ion-label color="danger">Debes Responder TODAS las Preguntas</ion-label>
+        </ion-item>
+     </ion-toolbar>
+    </ion-footer>
+
+</ion-content>
+
