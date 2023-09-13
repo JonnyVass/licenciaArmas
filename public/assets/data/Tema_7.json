@@ -1,0 +1,510 @@
+{
+	"data" : [
+        {
+            "question": "1. ¿En la Categoría 6ª.2 del artículo 3, del Reglamento de Armas, se encuentran las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1899, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas?",
+            "answers": [
+                {
+                    "label": "A).- Cierto.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Falso.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Es indiferente.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "2. Según se dispone en el artículo 107.c), del Reglamento de Armas, para su uso, las armas largas y cortas de avancarga y las demás de la categoría 6.2 precisarán la posesión de un certificado de un banco oficial de pruebas para cada arma y …",
+            "answers": [
+                {
+                    "label": "A).- La correspondiente Licencia de armas.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- La Licencia especial de armas.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- La obtención de una autorización especial.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "3. ¿Qué se entiende por arma antigua?",
+            "answers": [
+                {
+                    "label": "A).- Arma de fuego que en su ornamentación presenta una peculiaridad distinta a las demás de su clase, en razón de los materiales nobles empleados o de diseño, que le confiere un especial valor.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Arma de fuego portátil que utiliza munición de calibre flobert.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Arma de fuego cuyo modelo o cuyo año de fabricación es anterior al 1 de enero de 1890.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "4. Si no se va a hacer uso de una reproducción de un arma de fuego, únicamente se quiere poseer como coleccionista ¿Cómo se documentará?",
+            "answers": [
+                {
+                    "label": "A).- Mediante una guía especial de coleccionista.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Mediante la inscripción en un libro-registro de coleccionista.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Con un certificado del Banco Oficial de Pruebas.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "5. ¿La antigüedad de las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1890, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas, será fijada por la Dirección General de la Guardia Civil?",
+            "answers": [
+                {
+                    "label": "A).- Cierto.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Falso.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Es indiferente.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "6. ¿Cómo se efectuará la custodia de las reproducciones de las armas de fuego cortas en los domicilios particulares?",
+            "answers": [
+                {
+                    "label": "A).- Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase III, de la norma UNE EN 1143-1.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Guardadas completas, o sus cierres o piezas fundamentales, en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "7. Las armas de fuego antiguas, sus reproducciones y asimiladas, susceptibles de hacer fuego, ¿en qué lugares se podrán utilizar?",
+            "answers": [
+                {
+                    "label": "A).- Excepcionalmente, se podrán utilizar en campos, galerías o polígonos de tiro controlados para prácticas, previa obtención de una autorización especial.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Únicamente en polígonos de tiro de concurso.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- En todo caso, se podrán utilizar en la práctica de la caza mayor.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "8. ¿Qué se entiende por reproducción de un arma de fuego?",
+            "answers": [
+                {
+                    "label": "A).- Un arma que es copia de otra, reuniendo características de aptitudes.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Un arma que es copia de otra original, reuniendo todas sus características, aptitudes y posibilidades de uso.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Un arma que es copia de otra original, y no reúne sus características, aptitudes y posibilidades de uso.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "9. ¿Qué es una réplica de un arma de fuego?",
+            "answers": [
+                {
+                    "label": "A).- Objeto que por su apariencia física o características externas puede inducir a confusión sobre su auténtica naturaleza.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Es un arma que es similar a otra original, y que no reúne las mismas aptitudes de un arma original.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Es un arma igual a otra original, con todas sus características, pero que no tiene las mismas aptitudes y posibilidades de uso.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "10. ¿Qué tipo de munición deberán utilizar las reproducciones de armas de fuego antiguas?",
+            "answers": [
+                {
+                    "label": "A).- Munición metálica utilizada para las armas de fabricación actual y del mismo calibre.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Munición con pólvora negra, y del calibre de las mismas.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Munición con pólvora sin humo.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "11. ¿Se podrá adquirir munición para el uso de las reproducciones de armas de fuego cortas antiguas?",
+            "answers": [
+                {
+                    "label": "A).- Sólo podrán adquirirse 100 cartuchos anuales por arma corta.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Podrán adquirirse 150 cartuchos anuales por arma corta.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Sólo podrán adquirirse 200 cartuchos anuales por arma corta.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "12. ¿Se podrá tener en depósito munición para el uso de las reproducciones de armas de fuego largas antiguas?",
+            "answers": [
+                {
+                    "label": "A).- Podrá tener en depósito 250 cartuchos.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Podrá tener en depósito hasta 1000 cartuchos.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- En ningún caso podrá tener en depósito un número superior a 200 cartuchos.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "13. El cartucho de pólvora ya se empleaba a mediados del siglo XVI, no obstante, respecto al cartucho de pólvora de percusión central, ¿Cuándo comenzó su uso?",
+            "answers": [
+                {
+                    "label": "A).- 1550 a 1840.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- 1868 en adelante.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- 1845 a 1925.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "14. ¿Cuál fue el primer ejército del mundo dotado con revólveres?",
+            "answers": [
+                {
+                    "label": "A).- El Ejército Español.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- El Ejército Norteamericano.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- El Ejercito Francés.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "15. ¿Cuál fue la primera arma de repetición con cartucho metálico declarada reglamentaria en el Ejército Español?",
+            "answers": [
+                {
+                    "label": "A).- El revólver sistema Lafaucheaux.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- El revólver Colt.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- El revólver Remington",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "16. En relación a las armas retiradas por infracción a la Ley de Caza, si la Autoridad competente acordara la devolución de las mismas....",
+            "answers": [
+                {
+                    "label": "A) Las armas estarán depositadas en la Intervención a disposición de los particulares por un plazo máximo de un mes.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B) A partir de un mes de la notificación por parte de la Autoridad competente, si no fuesen retiradas por su propietario serán destruidas",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Ambas son correctas",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "17. ¿Qué entendemos por munición de bala explosiva?",
+            "answers": [
+                {
+                    "label": "A) Munición de uso civil con balas que contienen una carga que explota por impacto",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B) Munición de uso militar con balas que contienen una carga que explota por impacto",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Ninguna es correcta",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "18. ¿Cuál de las siguientes afirmaciones es cierta?",
+            "answers": [
+                {
+                    "label": "A) La munición es un cartucho incluyendo la vaina.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B) La vaina no está incluida en la parte de un cartucho",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Se considera munición a los cartuchos a partir de 9 mm",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "19. Consideramos que un arma ha sido inutilizada, cuando..",
+            "answers": [
+                {
+                    "label": "A) Al menos un componente esencial hay sido inutilizado.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B) Al menos dos componentes esenciales hayan sido inutilizados.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Cuando todos sus componentes esenciales hayan sido inutilizados.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "20. ¿Puede un arma de un solo tiro llevar adaptado un cargador?",
+            "answers": [
+                {
+                    "label": "A) No, nunca",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B) Si, si solo se hace uso de tiro a tiro",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Dependerá del momento.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "21. ¿Podemos considerar como coleccionista a una persona que solo reúne componentes esenciales de las armas?",
+            "answers": [
+                {
+                    "label": "A) No, al menos debe de coleccionar un arma completa.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B) Sí, es correcto",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Solo en el caso de que tenga especial vocación",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "22. El hecho de transformar un arma de guerra en otra civil, lo denominaremos...",
+            "answers": [
+                {
+                    "label": "A) Actividad lucrativa",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B) No está permitido.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Desmilitarización.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        }
+    ]
+}

@@ -1,0 +1,1614 @@
+{
+	"data" : [
+        {
+            "question": "1. ¿Un rifle automático puede ampararse en una Licencia de Armas “D” ?",
+            "answers": [
+                {
+                    "label": "A).- Sí",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- No por ser arma de guerra prohibida a particulares",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Sí, si emplea munición de caza",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "2. Para la expedición de una licencia de armas, ¿qué edad mínima tendrá el peticionario?",
+            "answers": [
+                {
+                    "label": "A).- 14 años.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- 16 años.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- 18 años.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "3. ¿Cuantas licencias de armas “D” se podrán poseer?",
+            "answers": [
+                {
+                    "label": "A).- Dependerá del número de amas que se posean.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Una.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Dos.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "4. ¿Qué documentos para la utilización de un arma larga rayada para caza mayor, portará su titular cuando ejerza la práctica de la caza?",
+            "answers": [
+                {
+                    "label": "A) Licencia “D” y guía del arma que utilice.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B) Tarjeta de armas.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Solo la guía de pertenencia.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "5. ¿Se puede expedir una licencia de armas a un español residente en Francia?",
+            "answers": [
+                {
+                    "label": "A).- Sí.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- No.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Si, por ser un país de la U.E.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "6. ¿Podría utilizar un titular de licencia de armas “E” una escopeta de su propiedad inscrita en un Libro-Registro de coleccionista, para ejercer la caza?",
+            "answers": [
+                {
+                    "label": "A).- No, porque está prohibido su uso.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Si porque el/la titular de la licencia y el libro-registro es la misma persona.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- No porque está prohibida su circulación.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "7. ¿Qué es necesario en el territorio español para poseer una escopeta de caza?",
+            "answers": [
+                {
+                    "label": "A).- Tarjeta de armas.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Un permiso de armas.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Licencia de armas tipo “E”",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "8. ¿Quiénes pueden tener y usar alzas o miras telescópicas adaptables a las armas de caza mayor?",
+            "answers": [
+                {
+                    "label": "A) Las puede tener y usar cualquiera, pues no se trata de un arma.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B) Necesitan una autorización especial de la Intervención de Armas de la Guardia Civil.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C) Las personas que estén en posesión de licencia de armas tipo “D”.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "9. ¿Qué edad mínima debe tener una persona para poder poseer un rifle de caza mayor y qué licencianecesita?",
+            "answers": [
+                {
+                    "label": "A).- Debe tener como mínimo 18 años y estar en posesión de licencia de armas tipo “D”.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Tener entre 16 y 18 años y estar en posesión de autorización especial de uso de armas para menores.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tener como mínimo 16 años, tener licencia de armas tipo “D” y que la Intervención de Armas le autorice.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "10. En un arma combinada (escopeta y rifle de caza), ¿cómo se documentará dicha arma?.",
+            "answers": [
+                {
+                    "label": "A).- Dos, una para la escopeta y otra para el rifle.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Dos licencias en un modelo de licencia especial.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Se documentará con una guía de pertenencia, teniendo en cuenta el arma de mayor peligrosidad.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "11. El/La propietario/a de una escopeta y un arma larga rayada para caza mayor, ¿qué licencias de armas deberá tener?",
+            "answers": [
+                {
+                    "label": "A).- Licencia de armas “D” y “E”.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Solo licencia “D” pues ampara un arma de mayor peligrosidad.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Licencia de armas “D” o “E”, es indiferente.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "12. ¿Qué documento se entrega al Interventor de Armas, por pérdida, destrucción, robo o sustracción de un arma de la categoría 2ª y 3ª?",
+            "answers": [
+                {
+                    "label": "A).- Guía de pertenencia.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Licencia de armas correspondiente.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tarjeta federativa.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "13. ¿Qué documento podrá solicitarse en la Intervención de Armas, ante la pérdida, destrucción, robo o ustracción de la licencia de armas?.",
+            "answers": [
+                {
+                    "label": "A).- Guía de pertenencia.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Guía de circulación.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Autorización temporal de uso de armas.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "14. Cuando las licencias de armas estén próximas a caducar, ¿qué documento podrán expedir los/las Interventores/ras de Armas a los/las peticionarios/as?",
+            "answers": [
+                {
+                    "label": "A).- Guía de pertenencia.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Guía de circulación.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Autorización temporal de uso de armas.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "15. ¿Qué es una autorización temporal de uso de armas?",
+            "answers": [
+                {
+                    "label": "A).- Es una autorización que se otorga a cualquier persona mayor de edad para poder cazar quince días.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Es una autorización que se concede a las personas con licencias de armas caducadas para poder cazar.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Son autorizaciones que expiden los Interventores de Armas a las personas con licencias de armas próximas a caducar, con un período de vigencia de tres meses y solamente para el uso de las armas.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "16. Los titulares de licencias de armas próximas a caducar, cuando éstos/as solicitan su nueva concesión, las Intervenciones de Armas y Explosivos podrán expedir a los solicitantes autorizaciones temporales de uso de dichas armas, ¿qué plazo de validez tendrán dichas autorizaciones?",
+            "answers": [
+                {
+                    "label": "A).- Un mes.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Dos meses.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tres meses.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "17. ¿Quien expide la autorización temporal de uso de armas a los titulares de licencias de armas próximas a caducar, cuando éstos solicitan su nueva concesión?",
+            "answers": [
+                {
+                    "label": "A).- El/La Alcalde/sa del Ayuntamiento.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- El/La Interventor/a de Armas y Explosivos.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- El/La Armero/a autorizado/a.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "18. Para la tenencia de armas de la categoría 2ª.2 -Armas de fuego largas rayadas para caza mayor, ¿con qué documento habrá de estar documentada cada arma?",
+            "answers": [
+                {
+                    "label": "A).- Licencia de caza.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Con guía de pertenencia.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tarjeta deportiva.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "19. Para la tenencia de armas de la categoría 3ª.2 -Escopetas y demás armas de fuego largas de ánima lisa ¿con qué documento habrá de estar documentada cada arma?",
+            "answers": [
+                {
+                    "label": "A).- Licencia de armas “D”.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Guía de circulación.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Con guía de pertenencia.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "20. Para la tenencia de armas de la categoría 3ª.3 -Armas accionadas por aire u otro gas comprimido, siempre que la energía cinética del proyectil en boca exceda de 24,2 julios, ¿con qué documento habrá de estar documentada cada arma?",
+            "answers": [
+                {
+                    "label": "A).- Con guía de pertenencia.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Tarjeta de armas.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Guía especial.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "21. Para la tenencia de armas de la categoría, 7ª.2 -Ballestas- ¿con qué documento habrá de estar documentada cada arma?",
+            "answers": [
+                {
+                    "label": "A).- Tarjeta deportiva.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Con guía de pertenencia.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Licencia federativa.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "22. Para la tenencia de armas de la categoría 7ª.3 -Armas para lanzar cabos- ¿con qué documento habrá de estar documentada cada arma?",
+            "answers": [
+                {
+                    "label": "A).- Certificado de la Comandancia de marina.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- No es necesario ningún documento.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Con guía de pertenencia.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "23. ¿Cuántas armas irán reseñadas en una guía de pertenencia?",
+            "answers": [
+                {
+                    "label": "A).- Una.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Dos.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Ninguna.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "24. ¿En qué casos acompañará la guía de pertenencia al arma?",
+            "answers": [
+                {
+                    "label": "A).- No es necesario.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Solo cuando se deposite el arma.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- En caso de uso, depósito y transporte.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "25. Señale, entre las siguientes, el arma exceptuada de estar amparada con guía de pertenencia:",
+            "answers": [
+                {
+                    "label": "A).- Escopetas",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Pistolas",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Arcos",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "26. Señale, entre las siguientes, el arma exceptuada de estar amparada con guía de pertenencia.",
+            "answers": [
+                {
+                    "label": "A).- Pistola lanza bengalas.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Fúsil lanzacabos",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Fúsil de inyección anestésica.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "27. ¿Cuántas escopetas de caza se pueden legalizar con una sola guía de pertenencia?.",
+            "answers": [
+                {
+                    "label": "A).- Solamente se puede legalizar una escopeta.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Más de una escopeta si es del mismo titular.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Con una guía de varios cuerpos, se pueden legalizar escopetas y rifles a la vez.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "28. En una Guía de Pertenencia, aparte del D.N.I., los datos personales del propietario del arma, así como los de la Licencia, ¿qué otros datos deben figurar?.",
+            "answers": [
+                {
+                    "label": "A).- El nombre del fabricante.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- La provincia donde fue fabricada el arma.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- La reseña completa del arma.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "29. Quienes precisen armas utilizables para la caza mayor ¿qué licencia de armas deberán obtener?",
+            "answers": [
+                {
+                    "label": "A).- Licencia de armas “D”",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Licencia de armas “E”",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Licencia de armas “F”",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "30. Para la tenencia de un cañón estriado adaptable a una escopeta de caza, con recámara para cartuchos metálicos, siempre que no estén clasificadas como armas de guerra, ¿qué licencia será necesaria?",
+            "answers": [
+                {
+                    "label": "A).- Licencia de armas “E”",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Licencia de armas “F”",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Licencia de armas “D”",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "31. ¿Qué armas ampara la licencia de armas “D”?",
+            "answers": [
+                {
+                    "label": "A).- Fusiles lanzacabos.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Escopetas.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Armas largas rayadas para caza mayor.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "32. ¿Qué licencia de armas debe obtenerse para llevar y usar armas de fuego largas rayadas para tiro deportivo, de calibre 5,6 milímetros (22 americano), de percusión anular, bien sean de un disparo, bien de repetición o semiautomáticas (Categoría 3ª1)?.",
+            "answers": [
+                {
+                    "label": "A).- Licencia de armas “D”",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Licencia de armas “C”",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Licencia de armas “E”",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "33. ¿Qué licencia de armas debe obtenerse para poseer, llevar y usar ballestas (Categoría 7ª2)?",
+            "answers": [
+                {
+                    "label": "A).- No precisan licencia.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Licencia de armas “E”",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tarjeta deportiva.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "34. La Licencia “E” autoriza a poseer, llevar y usar ¿qué categoría de armas?",
+            "answers": [
+                {
+                    "label": "A).- Armas de la categoría 3ª, 7ª 2 y 7ª 3.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Armas de la categoría 4ª y 5ª.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Armas de la categoría 3ª y 4ª.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "35. La licencia de armas “E” autoriza a poseer, llevar y usar armas de las categorías 3ª, 7ª 2 y 7ª 3. ¿cuántas armas se podrán poseer como máximo?",
+            "answers": [
+                {
+                    "label": "A).- Cinco armas largas rayadas.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Su número no excederá de 6 escopetas ó 6 armas largas rayadas para tiro deportivo, ni 12 armas en total.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Ninguna de las anteriores.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "36. ¿Hasta cuantas escopetas puede ampararse con una licencia de armas “E”?",
+            "answers": [
+                {
+                    "label": "A).- Cuatro.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Cinco.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Seis",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "37. ¿Hasta cuantas armas de fuego largas rayadas para tiro deportivo puede amparar una licencia de armas “E”?",
+            "answers": [
+                {
+                    "label": "A).- Cuatro.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Cinco.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Seis.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "38. ¿Cuántas carabinas de aire comprimido se pueden legalizar con una licencia de armas tipo “D”?.",
+            "answers": [
+                {
+                    "label": "A).- Cinco, lo mismo que los rifles.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Solamente tres.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Ninguna, las carabinas de aire o gas comprimido se legalizan con tarjetas de armas que expiden los/las Alcaldes/as.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "39. ¿El titular de armas de fuego cuando viaje con ellas por países miembros de la Unión Europea, deberá ser portador?",
+            "answers": [
+                {
+                    "label": "A).- De licencia de armas correspondiente al país donde viaje.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- De Tarjetas de armas correspondiente al país donde viaje.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- De la Tarjeta Europea de Armas",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "40. ¿Cuál es la vigencia de la Tarjeta Europea de Armas?",
+            "answers": [
+                {
+                    "label": "A).- Dos años.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Tres años.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Cinco años.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "41. ¿Qué armas figurarán en la Tarjeta Europea de Armas?",
+            "answers": [
+                {
+                    "label": "A).- Solo armas cortas.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Las que lleve o utilice su titular.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Armas amparadas con guía especial.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "42. El solicitante de licencia “E”, entre otros documentos, ¿cómo acreditará que se dedica al ejercicio de la caza?",
+            "answers": [
+                {
+                    "label": "A).- Mediante exhibición de la correspondiente licencia de caza.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Justificante del solicitante de pertenecer a una Federación Deportiva.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Ninguna de las anteriores.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "43. Con la presentación de la licencia de caza en vigor, ¿puede el solicitante de una licencia E acreditar que se dedica al ejercicio de la caza?",
+            "answers": [
+                {
+                    "label": "A).- No.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Sí.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tendrá que acompañar el justificante de ser socio de un coto de caza.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "44. ¿A quiénes les podrán ser expedida la Tarjeta Europea de Armas?",
+            "answers": [
+                {
+                    "label": "A).- A los/las españoles/las y extranjeros/ras residentes en España.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- A los/las españoles/las residentes o no en España.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- A los/las extranjeros/as residentes o no en España.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "45. En la renovación de la Tarjeta Europea de Armas, ¿qué se exigirá?",
+            "answers": [
+                {
+                    "label": "A).- Mantener la titularidad de las armas que ampare.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Licencia correspondiente.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Certificado de antecedentes penales.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "46. ¿Qué validez tendrán las autorizaciones especiales de uso de armas para menores?",
+            "answers": [
+                {
+                    "label": "A).- Cinco años.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Tres años.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Hasta la mayoría de edad.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "47. ¿Qué edad mínima tendrá un menor para utilizar un arma larga rayada para caza mayor o tiro deportivo?",
+            "answers": [
+                {
+                    "label": "A).- 14 años.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- 16 años.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- 18 años.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "48. ¿Qué edad mínima tendrá un menor para utilizar armas de las categorías 3ª.2 y 3ª.3?",
+            "answers": [
+                {
+                    "label": "A).- 14 años.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- 16 años.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- 18 años.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "49. ¿De quiénes irán siempre acompañados los menores cuando utilicen armas de las categorías 2ª.2 o 3ª?",
+            "answers": [
+                {
+                    "label": "A).- Personas mayores de edad.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Personas mayores de edad con licencia de armas D, E o F.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Personas mayores de edad y para cazar.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "50. La persona mayor de edad en posesión de licencia de armas D, E o F que acompañe a un/a menor de edad en posesión de autorización especial de uso de armas, que esté utilizando armas de las categorías 2ª2 o 3ª, ¿a qué se habrán comprometido previamente?",
+            "answers": [
+                {
+                    "label": "A).- A acompañarlo hasta el lugar de la cacería.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- A vigilarlo en todo momento y lugar.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- A acompañarlo y vigilarlo en cada cacería o acto deportivo.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "51. Un menor ¿puede ser titular de una escopeta?",
+            "answers": [
+                {
+                    "label": "A).- Sí, si tiene autorización especial de menores.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Puede ser titular de una escopeta solamente para cazar.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Un menor, no puede ser titular de una escopeta.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "52. Indique el plazo de validez de una licencia de armas tipo “D” expedida a una persona de 55 años.",
+            "answers": [
+                {
+                    "label": "A).- Cinco años",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Dos años",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tres años",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "53. Indique el plazo de validez de una licencia de armas “E” expedida a una persona de más de 50 años de edad y menos de 60 años.",
+            "answers": [
+                {
+                    "label": "A).- Una.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Tres.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Cinco.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "54. Un joven de 17 años, ¿cuántas licencias de armas tipo “E” puede tener?",
+            "answers": [
+                {
+                    "label": "A).- Una.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Dos, si no tiene licencia de armas tipo “D”.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Ninguna.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "55. ¿Por quién estarán suscritas las solicitudes de autorizaciones especiales de uso de armas para menores?.",
+            "answers": [
+                {
+                    "label": "A).- Por el interesado.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Por el interesado y por la persona que ejerce la patria potestad o tutela.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Por el padre del interesado.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "56. Indique el plazo de validez de una licencia de armas tipo “E” expedida a una persona de 62 años.",
+            "answers": [
+                {
+                    "label": "A).- Tres años",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Un año",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Cinco años",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "57. Indique el plazo de validez de una licencia de armas tipo “D” expedida a una persona de 68 años.",
+            "answers": [
+                {
+                    "label": "A).- Permanente",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Un año",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Cinco años visada cada Tres años",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "58. Indique el plazo de validez de una licencia de armas tipo “E” expedida a una persona de 72 años.",
+            "answers": [
+                {
+                    "label": "A).- Dos años",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Tres años",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Cinco años visada cada tres",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "59. Indique el plazo de validez de una licencia de armas tipo “D” expedida a una persona de 71 años.",
+            "answers": [
+                {
+                    "label": "A).- Cinco años visada cada tres",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Dos años",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Permanente.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "60. ¿A partir de qué edad es necesario visar la Licencia un particular?",
+            "answers": [
+                {
+                    "label": "A).- Setenta años",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Sesenta y cinco años",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Sesenta y siete años",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "61. ¿En qué plazo debe resolverse una solicitud de licencia de armas?",
+            "answers": [
+                {
+                    "label": "A).- Un mes",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).-Dos meses",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Tres meses",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "62. Caso de no mantenerse los requisitos que se exigen para el otorgamiento de una licencia de armas, ¿qué procede?",
+            "answers": [
+                {
+                    "label": "A).- Retirada de todas las armas.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Revocar la licencia.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Ninguna de las anteriores.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "63. Según el Reglamento de Armas, ¿por cuánto tiempo se puede revocar una licencia de armas?.",
+            "answers": [
+                {
+                    "label": "A).- Por un período máximo de dos años.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Por el tiempo que le falte para caducar.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Máximo tres años.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "64. ¿Cuándo podrá comprobar la Administración el mantenimiento de los requisitos exigibles para mantener la vigencia de una licencia de armas?",
+            "answers": [
+                {
+                    "label": "A).- Cuando lo solicite el titular.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- En cualquier momento",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- En los casos de infracción",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "65. La vigencia de una licencia de armas estará condicionada a:",
+            "answers": [
+                {
+                    "label": "A).- Mantenimiento de los requisitos exigibles en el Reglamento de Armas",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- No haber cambiado de residencia.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- No haber llegado a la edad de 65 años.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "66. Para obtener licencia para la tenencia y uso de armas largas rayadas para caza mayor o para escopetas y armas asimiladas se superarán unas pruebas de capacitación ¿En qué consistirán las mismas?",
+            "answers": [
+                {
+                    "label": "A).- Conocimiento del Reglamento de caza.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Conocimiento de las armas, su cuidado y conservación y sobre habilidad para su manejo y utilización.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Conocimiento de las licencias que existen.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "67. ¿Quien expide la guía de pertenencia de un arma?",
+            "answers": [
+                {
+                    "label": "A).- El/La Delegado/a del Gobierno",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- El/La Interventor/a de Armas.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- El/La director/a General de la Guardia Civil.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "68. A la solicitud de expedición de licencia de armas tipo “D” ¿qué documentos han de unirse?",
+            "answers": [
+                {
+                    "label": "A).- Certificado antecedentes penales e informe de aptitudes psicofísicas.",
+                    "result" : true,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Fotocopia del DNI o en su caso tarjeta de autorización de residencia.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Todos los reseñados en la A y B.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "1",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "69. ¿Qué documentos presentará el interesado al solicitar la expedición de licencia “E”?",
+            "answers": [
+                {
+                    "label": "A).- Solamente el certificado de antecedentes penales e informe de aptitud psicofísica.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Certificado de antecedentes penales en vigor, Informe de aptitud psicofísicas y acreditación de la dedicación real al ejercicio de la caza o de los deportes correspondientes.",
+                    "result" : true,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Ninguna de las anteriores.",
+                    "result" : false,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "2",
+            "userAns": "-1",
+            "usada" : false
+        },
+        {
+            "question": "70. ¿Cuál de los siguientes documentos no será obligatorio para la expedición de la Licencia de Armas tipo E?",
+            "answers": [
+                {
+                    "label": "A).- Informe de aptitudes Psicofísicas.",
+                    "result" : false,
+                    "order": "1"
+                },
+                {
+                    "label": "B).- Certificado de antecedentes penales.",
+                    "result" : false,
+                    "order": "2"
+                },
+				{
+                    "label": "C).- Certificado del Alcalde.",
+                    "result" : true,
+                    "order": "3"
+				}
+            ],
+            "correctAns": "3",
+            "userAns": "-1",
+            "usada" : false
+        }
+    ]
+}

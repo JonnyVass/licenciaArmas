@@ -26,7 +26,7 @@ export class Tab1Page {
   }
 
   getTemas() {
-    // recupero los temas del Fichero
+    // recupero los temas del  Fichero
     return this.http
     .get("assets/data/temas.json")
     .pipe(

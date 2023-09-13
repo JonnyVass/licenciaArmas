@@ -12,7 +12,7 @@
     <ion-item *ngFor="let tema of temas"
     (click) ="setTema(tema)"
     [routerLink]="['/questionario',tema.id]">
-      {{tema.name}}
+      <b>{{tema.name}}</b> &nbsp; {{tema.description}}
     </ion-item>
   </ion-list>
 

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { ActivatedRoute } from '@angular/router';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-questionario',
@@ -40,6 +41,8 @@ export class QuestionarioPage implements OnInit {
       handler: () => {
         // llamo al metodo para borrar el questionario
         this.resetCuestionario();
+        // vuelvo a la home
+        this.navCtrl.navigateRoot('');
       },
     },
   ];
@@ -47,7 +50,8 @@ export class QuestionarioPage implements OnInit {
 
   constructor(
     public http: HttpClient,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private navCtrl: NavController
   ) {  }
     
   ngOnInit() {

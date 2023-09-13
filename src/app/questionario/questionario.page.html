@@ -23,16 +23,35 @@
 
 <ion-content [fullscreen]="true">
   <!-- Contenido cuando NO hay preguntas Pendientes -->
-  <ion-item *ngIf="this.sinPreguntas == true">
-    <ion-icon style="color:green" name="checkmark-circle"></ion-icon>
-  </ion-item>
-  <ion-item *ngIf="this.sinPreguntas == true">
-    <ion-label>
-      <h1 class="ion-text-wrap">Has respondido ya todas las preguntas</h1>
-      <p>- Revisa los resultados</p>
-      <p>- Borra el test para empezar de nuevo</p>
-    </ion-label>
-  </ion-item>
+  <ion-list *ngIf="this.sinPreguntas == true">
+    <!-- NO hay preguntas cargadas (error de fichero o general)-->
+    <ion-list *ngIf="this.totales == 0">
+      <ion-item>
+        <ion-icon style="color:red" name="close-circle"></ion-icon>
+      </ion-item>
+      <ion-item *ngIf="this.sinPreguntas == true">
+        <ion-label>
+          <h1 class="ion-text-wrap">Se ha producido un error</h1>
+          <p>- No se han podido cargar del localStorage</p>
+          <p>- No se ha podido cargar el fichero con las preguntas</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+    <!-- NO hay preguntas Ptes de responder-->
+    <ion-list *ngIf="this.totales > 0">
+      <ion-item>
+        <ion-icon style="color:green" name="checkmark-circle"></ion-icon>
+      </ion-item>
+      <ion-item *ngIf="this.sinPreguntas == true">
+        <ion-label>
+          <h1 class="ion-text-wrap">Has respondido ya todas las preguntas</h1>
+          <p>- Revisa los resultados</p>
+          <p>- Borra el test para empezar de nuevo</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-list>
+  
   <!-- Contenido cuando hay preguntas Pendientes -->
   <ion-list *ngIf="this.sinPreguntas == false">
     <ion-item>

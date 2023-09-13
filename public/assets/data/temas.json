@@ -1,31 +1,38 @@
 {
 	"data" : [
         {
-            "name": "Tema 1: FUNCIONAMIENTO DE LAS ARMAS",
+            "name": "Tema 1: ",
+            "description" : "FUNCIONAMIENTO DE LAS ARMAS",
             "id": "T1"
         },
         {
-            "name": "Tema 2: CATEGORÍA DE LAS ARMAS SEGÚN EL VIGENTE REGLAMENTO DE ARMAS             ARMAS SEMIAUTOMÁTICAS, ARMAS DE REPETICIÓN, ARMAS PROHIBIDAS",
+            "name": "Tema 2: ",
+            "description" : "CATEGORÍA DE LAS ARMAS SEGÚN EL VIGENTE REGLAMENTO DE ARMAS: ARMAS SEMIAUTOMÁTICAS, ARMAS DE REPETICIÓN, ARMAS PROHIBIDAS",
             "id": "T2"
         },
         {
-            "name": "Tema 3: CIRCULACIÓN, REVISTA Y TRANSFERENCIAS DE ARMAS",
+            "name": "Tema 3: ",
+            "description" : "CIRCULACIÓN, REVISTA Y TRANSFERENCIAS DE ARMAS",
             "id": "T3"
         },
         {
-            "name": "Tema 4: DOCUMENTACIÓN PARA LA TENENCIA Y USO DE ARMAS",
+            "name": "Tema 4: ",
+            "description" : "DOCUMENTACIÓN PARA LA TENENCIA Y USO DE ARMAS",
             "id": "T4"
         },
         {
-            "name": "Tema 5: RÉGIMEN SANCIONADOR, INFRACCIONES Y RETIRADA DE LAS ARMAS",
+            "name": "Tema 5: ",
+            "description" : "RÉGIMEN SANCIONADOR, INFRACCIONES Y RETIRADA DE LAS ARMAS",
             "id": "T5"
         },
         {
-            "name": "Tema 6: REPARACIÓN, PRUEBA Y DEPOSITO DE ARMAS",
+            "name": "Tema 6: ",
+            "description" : "REPARACIÓN, PRUEBA Y DEPOSITO DE ARMAS",
             "id": "T6"
         },
         {
-            "name": "Tema 7: ARMAS DE COLECCIÓN, ARTÍCULO 2 y 107 E HISTORIA DE LAS ARMAS DE FUEGO",
+            "name": "Tema 7: ",
+            "description" : "ARMAS DE COLECCIÓN, ARTÍCULO 2 y 107 E HISTORIA DE LAS ARMAS DE FUEGO",
             "id": "T7"
         }
     ]
