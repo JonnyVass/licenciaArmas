@@ -18,6 +18,9 @@ export class QuestionarioPage implements OnInit {
   items: any = [];
   sinPreguntas: boolean = false;
   respuestaPregunta: boolean = false;
+    //para la pantalla
+    totales: number = 0;
+    restantes: number = 0;
   //listado de preguntas FALLIDAS
   failResponse: any = [];
   //listado de preguntas CORRECTAS
@@ -87,6 +90,8 @@ export class QuestionarioPage implements OnInit {
       //NO hay preguntas sin Usar, por lo tanto el tema está completo y OK
       this.sinPreguntas = true;
     }
+    this.totales = tmpitems.length;
+    this.restantes = this.items.length;
   }
 
   /* SOBRA este metodo, lo estamos obteniendo del LocalStorage al inicio de la APP

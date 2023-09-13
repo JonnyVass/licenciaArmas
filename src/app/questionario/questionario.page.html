@@ -5,7 +5,7 @@
        default-href="#"
        [routerLink]="['/']" ></ion-back-button>
     </ion-buttons>
-    <ion-title>questionario {{tema}}</ion-title>
+    <ion-title>Quiz {{tema}} ({{this.restantes}} / {{this.totales}})</ion-title>
     <ion-buttons slot="end">
       <ion-button id="present-alert">
         <ion-icon slot="icon-only" name="trash"></ion-icon>

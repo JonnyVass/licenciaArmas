@@ -33,16 +33,18 @@ export class Tab2Page implements OnInit {
   ) {}
   
   ionViewWillEnter() {
-    // Usamos este evento para reinicializar el Examen Final cada vez ya que el 
+    // Usamos este evento para reinicializar el Examen Final cada vez ya que en el 
       // ngOnInit solo se ejecuta 1 vez cuando cargamos la App
     
+      //reset de la variable
+    this.examen = [];
     //preparo el examen simulando el original
     this.getExamen()
   }
 
   ngOnInit() {
     let tmpJson: string = "";
-    // Obtener todos los temas y guardarlos en sesion
+    // Obtener todos los temas del storage y los trato como NO usados
       // TEMA 1
     tmpJson = localStorage.getItem("PreguntasT1") || "";
     //recupero los resultados del tema
@@ -74,15 +76,61 @@ export class Tab2Page implements OnInit {
       // ¿?¿? Alert, ¿como puedo resetear la App por completo?
     }
     this.itemsT3 = this.resetListado(this.itemsT3); //reinicio para que esten todas NO usadas
-    // CONTINUAR CON EL RESTO
+      // TEMA 4
+    tmpJson = localStorage.getItem("PreguntasT4") || "";
+    //recupero los resultados del tema
+    if (tmpJson != "") {
+      this.itemsT4 = JSON.parse(tmpJson);
+    } else {
+      //error en datos del Storage
+      // ¿?¿? Alert, ¿como puedo resetear la App por completo?
+    }
+    this.itemsT4 = this.resetListado(this.itemsT4); //reinicio para que esten todas NO usadas
+      // TEMA 5
+    tmpJson = localStorage.getItem("PreguntasT5") || "";
+    //recupero los resultados del tema
+    if (tmpJson != "") {
+      this.itemsT5 = JSON.parse(tmpJson);
+    } else {
+      //error en datos del Storage
+      // ¿?¿? Alert, ¿como puedo resetear la App por completo?
+    }
+    this.itemsT5 = this.resetListado(this.itemsT5); //reinicio para que esten todas NO usadas
+      // TEMA 6
+    tmpJson = localStorage.getItem("PreguntasT6") || "";
+    //recupero los resultados del tema
+    if (tmpJson != "") {
+      this.itemsT6 = JSON.parse(tmpJson);
+    } else {
+      //error en datos del Storage
+      // ¿?¿? Alert, ¿como puedo resetear la App por completo?
+    }
+    this.itemsT6 = this.resetListado(this.itemsT6); //reinicio para que esten todas NO usadas
+      // TEMA 7
+    tmpJson = localStorage.getItem("PreguntasT7") || "";
+    //recupero los resultados del tema
+    if (tmpJson != "") {
+      this.itemsT7 = JSON.parse(tmpJson);
+    } else {
+      //error en datos del Storage
+      // ¿?¿? Alert, ¿como puedo resetear la App por completo?
+    }
+    this.itemsT7 = this.resetListado(this.itemsT7); //reinicio para que esten todas NO usadas
 
-      //console.log("itemsT1 resetListado", this.itemsT1);
+
+
+    // descoloco las preguntas para que NO estén en orden
     this.barajarArray(this.itemsT1); //random en listado
-      //console.log("itemsT1 barajados del Storage", this.itemsT1);
     this.barajarArray(this.itemsT2); //random en listado
     this.barajarArray(this.itemsT3); //random en listado
+    this.barajarArray(this.itemsT4); //random en listado
+    this.barajarArray(this.itemsT5); //random en listado
+    this.barajarArray(this.itemsT6); //random en listado
+    this.barajarArray(this.itemsT7); //random en listado
   
-    
+      // no hacemos mas, esperamos a que se ejecute el ionViewWillEnter
+        // para generar el examen random (ya q ese evento se genera cada vez que
+        // se carga la pagina)
     
   }
 
@@ -115,31 +163,83 @@ export class Tab2Page implements OnInit {
         }
       }
         // TEMA 2 --> 3 preguntas
-        for (let i=1; i<=3; i++){
+      for (let i=1; i<=3; i++){
+        aux = this.buscarAleatorio(this.itemsT2);
+        if (aux != null){
+          //es una respuesta NO usada antes
+          this.examen.push(aux);
+        }else {
+          //si es null, reseteo el listado para comenzar de nuevo
+          this.itemsT3 = this.resetListado(this.itemsT2);
           aux = this.buscarAleatorio(this.itemsT2);
-          if (aux != null){
-            //es una respuesta NO usada antes
-            this.examen.push(aux);
-          }else {
-            //si es null, reseteo el listado para comenzar de nuevo
-            this.itemsT3 = this.resetListado(this.itemsT2);
-            aux = this.buscarAleatorio(this.itemsT2);
-            this.examen.push(aux);
-          }
+          this.examen.push(aux);
         }
+      }
         // TEMA 3 --> 3 preguntas
-        for (let i=1; i<=3; i++){
+      for (let i=1; i<=3; i++){
+        aux = this.buscarAleatorio(this.itemsT3);
+        if (aux != null){
+          //es una respuesta NO usada antes
+          this.examen.push(aux);
+        }else {
+          //si es null, reseteo el listado para comenzar de nuevo
+          this.itemsT3 = this.resetListado(this.itemsT3);
           aux = this.buscarAleatorio(this.itemsT3);
-          if (aux != null){
-            //es una respuesta NO usada antes
-            this.examen.push(aux);
-          }else {
-            //si es null, reseteo el listado para comenzar de nuevo
-            this.itemsT3 = this.resetListado(this.itemsT3);
-            aux = this.buscarAleatorio(this.itemsT3);
-            this.examen.push(aux);
-          }
+          this.examen.push(aux);
         }
+      }
+        // TEMA 4 --> 4 preguntas
+      for (let i=1; i<=4; i++){
+        aux = this.buscarAleatorio(this.itemsT4);
+        if (aux != null){
+          //es una respuesta NO usada antes
+          this.examen.push(aux);
+        }else {
+          //si es null, reseteo el listado para comenzar de nuevo
+          this.itemsT4 = this.resetListado(this.itemsT4);
+          aux = this.buscarAleatorio(this.itemsT4);
+          this.examen.push(aux);
+        }
+      }
+        // TEMA 5 --> 3 preguntas
+      for (let i=1; i<=3; i++){
+        aux = this.buscarAleatorio(this.itemsT5);
+        if (aux != null){
+          //es una respuesta NO usada antes
+          this.examen.push(aux);
+        }else {
+          //si es null, reseteo el listado para comenzar de nuevo
+          this.itemsT5 = this.resetListado(this.itemsT5);
+          aux = this.buscarAleatorio(this.itemsT5);
+          this.examen.push(aux);
+        }
+      }
+        // TEMA 6 --> 3 preguntas
+      for (let i=1; i<=3; i++){
+        aux = this.buscarAleatorio(this.itemsT6);
+        if (aux != null){
+          //es una respuesta NO usada antes
+          this.examen.push(aux);
+        }else {
+          //si es null, reseteo el listado para comenzar de nuevo
+          this.itemsT6 = this.resetListado(this.itemsT6);
+          aux = this.buscarAleatorio(this.itemsT6);
+          this.examen.push(aux);
+        }
+      }
+        // TEMA 7 --> 4 preguntas
+      for (let i=1; i<=4; i++){
+        aux = this.buscarAleatorio(this.itemsT7);
+        if (aux != null){
+          //es una respuesta NO usada antes
+          this.examen.push(aux);
+        }else {
+          //si es null, reseteo el listado para comenzar de nuevo
+          this.itemsT7 = this.resetListado(this.itemsT7);
+          aux = this.buscarAleatorio(this.itemsT7);
+          this.examen.push(aux);
+        }
+      }
    
 
     //sacamos las preguntas de manera aleatoria:
