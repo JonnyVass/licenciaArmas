@@ -66,13 +66,16 @@
         <!-- Listado de respuestas -->
         <ion-card-content>
           <ion-radio-group>
-            <ion-radio labelPlacement="end"
-            justify="start"
+            <ion-item
             *ngFor="let respuesta of item.answers"
-            value={{respuesta.order}}
             (click)="resuelveRespuesta(item,respuesta.order)">
-              {{respuesta.label}}
-            </ion-radio>
+              <ion-radio slot="start"
+              legacy="true"
+              justify="start" 
+              value={{respuesta.order}}
+              ></ion-radio>
+              <ion-label class="ion-text-wrap">{{respuesta.label}}</ion-label>
+          </ion-item>
           </ion-radio-group>
         </ion-card-content>
       </ion-card>
